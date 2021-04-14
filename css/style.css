@@ -1,0 +1,225 @@
+/* BODY */
+body {
+    margin: 0 100px;
+}
+
+/* NAV STYLE */
+.nav-li:not(:last-child) {
+    margin-right: 30px;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: grey;
+}
+
+a {
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    padding: 10px;
+}
+
+li:hover {
+    background-color: rgb(41, 40, 40);
+}
+
+/* LEARN MORE */
+a.plus {
+    color: black;
+}
+
+.plus:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* BUTTON READ NEXT CONTENT */
+.lire-plus {
+    padding: 5px;
+    display: block;
+    width: 96px;
+    color: white;
+    background-color: grey;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* IMG ARTIST */
+.img-artist {
+    background-color: grey;
+    color: white;
+}
+
+.img-artist small {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+/* ARROW IN MIDDLE PAGE */
+.arrow img {
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 50px;
+}
+
+/* ACTIVE LINK */
+.nav-li.home {
+    background-color: rgb(41, 40, 40);
+}
+
+.nav-li.klee {
+    background-color: rgb(41, 40, 40);
+}
+
+/* BIOGRAPHY ARTISTS */
+.biography {
+    width: 75%;
+    margin-right: 54px;
+}
+
+/* PAUL KLEE PAGE */
+.description-klee {
+    margin-left: 10px;
+}
+
+.citation  {
+    background-color: grey;
+    padding: 30px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.citation cite {
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+/* QUOTES */
+.open-quote  {
+    margin-right: calc(100% - 4%);
+}
+
+.close-quote {
+    margin-left: calc(100% - 4%);
+}
+
+/* SOCIAL NETWORKS */
+.social-networks {
+    width: 20%;
+}
+
+.social-networks h3 {
+    color: grey;
+    font-size: 18px;
+}
+
+.social-networks div:nth-child(1){
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.social-networks ul {
+    padding: 0;
+}
+
+.social-networks ul .first {
+    background: url('../sources/images/reseaux.png');
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-position: 0px 0px;
+}
+
+.social-networks ul .second {
+    background: url('../sources/images/reseaux.png');
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-position: 32px 0px;
+}
+
+.social-networks ul .third {
+    background: url('../sources/images/reseaux.png');
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-position: 64px 0px;
+}
+
+.social-networks ul .first:hover {
+    cursor: pointer;
+    background: url('../sources/images/reseaux.png');
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-position: 0px -32px;
+}
+
+.social-networks ul .second:hover {
+    cursor: pointer;
+    background: url('../sources/images/reseaux.png');
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-position: 32px -32px;
+}
+
+.social-networks ul .third:hover {
+    cursor: pointer;
+    background: url('../sources/images/reseaux.png');
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-position: 64px -96px;
+}
+
+/* ARTICLES ABOUT PAUL KLEE */
+.first-article-klee {
+    width: 75%;
+}
+
+.second-article-klee {
+    width: 75%;
+}
+
+/* IMAGES ABOUT PAUL KLEE */
+.imageBox #one {
+    background-image: url('../sources/images/paul-klee-1.jpg');
+    width: 300px;
+    height: 240px;
+}
+
+.imageBox #second {
+    background-image: url('../sources/images/paul-klee-2.jpg');
+    width: 300px;
+    height: 240px;
+}
+
+.imageBox #one:hover {
+    background-image: url('../sources/images/paul-klee-1-hover.jpg');
+}
+
+.imageBox #second:hover {
+    background-image: url('../sources/images/paul-klee-2-hover.jpg');
+}
