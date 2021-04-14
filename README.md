@@ -2,6 +2,11 @@
 
 Integration about a museum site template.
 
+# Technologies
+
+- HTML
+- CSS
+
 # How to test
 
 1. Go to current folder of project in terminal
